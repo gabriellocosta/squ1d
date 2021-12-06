@@ -1,0 +1,164 @@
+.titulo {
+  font-family: 'Rubik', sans-serif;
+  color: #FA91D4;
+  background-color: #FFFEFE;
+  text-align: center;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: lowercase;
+  text-shadow: -5px 0 #FFEBBE, 0 5px #FFEBBE, 5px 0 #FFEBBE, 0 -5px #FFEBBE;
+  padding: 1rem;
+}
+
+.headermain {
+  align-self: center;
+  align-items: center;
+  display: flex;
+  align-self: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  width: 99%;
+}
+
+.boxmain{
+  background: linear-gradient(#FFEBBE,#FCC0CD);
+  position: inherit;
+  border-radius: 1rem;
+  padding-top: .75rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-bottom: .75rem;
+  border: 5px solid #FFFEFE;
+  margin-top: 2rem;
+  width: inherit;
+}
+
+.whitebox {
+background-color: #FFFEFE;
+position: static;
+float: left;
+width: 13em;
+margin-top: 1em;
+margin-bottom: 1em;
+width: 75%;
+
+}
+
+.boxabout  {
+    display: inline-block;;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left, margin-right: 1rem;
+
+}
+
+.titulobox {
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+    color: #FA91D4;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: lowercase;
+    margin: 1rem;
+    margin-bottom: -1rem;
+}
+
+
+.textoabout {
+    font-size: 1rem;
+    color: #726C71;
+    line-height: normal;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    margin: 0 auto 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+}
+
+.links1 {
+    text-align: center;
+    align-items: center;
+    background: #FA91D4;
+    width: auto;
+    margin-left: -.5rem;
+    margin-right: -.5rem;
+    margin-bottom: -.75rem;
+    margin-top: -.75rem;
+
+}
+
+.link1css {
+    font-size: 2rem;
+    font-family: 'Neucha', cursive;
+    color: #FFFEFE;
+    display: inline-block;
+    margin-right: .7rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    margin-left: .7rem;
+}
+
+
+.link1css:hover {
+    color: #B65C95;
+}
+
+.discordbutton {
+    margin-top: 1em;
+    float: left;
+    text-align: right;
+    width: 25%;
+
+}
+
+.abeldiscord {
+text-align: center;
+width: 30%;
+border-radius: 50%;
+
+}
+
+.discordtext {
+  font-family: 'Rubik', sans-serif;
+  color: #76C2AF;
+  text-align: right;
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 900;
+  text-transform: lowercase;
+  text-shadow: -5px 0 #FFFEFE, 0 5px #FFFEFE, 5px 0 #FFFEFE, 0 -5px #FFFEFE;
+  margin-top: .5rem;
+
+}
+
+.discordtext:hover {
+  color: #E1A35A;
+}
+
+@media screen and (max-width: 480px) {
+
+  .whitebox {
+    width: 75%;
+    }
+
+  .abeldiscord {
+    width: 100%;
+  }
+
+  .link1css {
+      font-size: 2rem;
+  }
+
+  .discordtext {
+    font-size: 1rem;
+  }
+
+  .textoabout {
+        font-size: .75rem;
+  }
+
+}
