@@ -50,135 +50,135 @@
 
 
 .whitebox {
-background-color: #FFFEFE;
-position: static;
-float: left;
-width: 13em;
-top: 20%;
-margin-top: 3em;
-margin-bottom: 1em;
-width: 75%;
+  background-color: #FFFEFE;
+  position: static;
+  float: left;
+  width: 13em;
+  top: 20%;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  width: 75%;
 
 }
 
 
 .whitebox2 {
-background-color: #FFFEFE;
-border-radius: 5%;
-position: static;
-text-align: center;
-width: 13em;
-margin-top: 1rem;
-margin-bottom: 1em;
-width: 100%;
-padding-top: .3rem;
-padding-bottom: 1rem;
+  background-color: #FFFEFE;
+  border-radius: 5%;
+  position: static;
+  text-align: center;
+  width: 13em;
+  margin-top: 1rem;
+  margin-bottom: 1em;
+  width: 100%;
+  padding-top: .3rem;
+  padding-bottom: 1rem;
 
 }
 
 .boxabout  {
-    display: inline-block;;
-    flex-direction: column;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-left, margin-right: 1rem;
+  display: inline-block;;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left, margin-right: 1rem;
 
 }
 
 .titulobox {
-    text-align: left;
-    font-family: 'Rubik', sans-serif;
-    color: #FA91D4;
-    font-size: 1.5rem;
-    font-weight: 900;
-    text-transform: lowercase;
-    margin: 1rem;
-    margin-bottom: .2rem;
+  text-align: left;
+  font-family: 'Rubik', sans-serif;
+  color: #FA91D4;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-transform: lowercase;
+  margin: 1rem;
+  margin-bottom: .2rem;
 }
 
 
 .textoabout {
-    font-size: 1rem;
-    color: #726C71;
-    line-height: normal;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 300;
-    margin: 0 auto 1rem;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: .5rem;
+  font-size: 1rem;
+  color: #726C71;
+  line-height: normal;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  margin: 0 auto 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .5rem;
 }
 
 .textoaboutright {
-    text-align: right;
-    font-size: 1rem;
-    color: #726C71;
-    line-height: normal;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 300;
-    margin: 0 auto 1rem;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: .5rem;
+  text-align: right;
+  font-size: 1rem;
+  color: #726C71;
+  line-height: normal;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  margin: 0 auto 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .5rem;
 }
 
 .textoaboutleft {
-    text-align: left;
-    font-size: 1rem;
-    color: #726C71;
-    line-height: normal;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 300;
-    margin: 0 auto 1rem;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-bottom: .5rem;
+  text-align: left;
+  font-size: 1rem;
+  color: #726C71;
+  line-height: normal;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 300;
+  margin: 0 auto 1rem;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: .5rem;
 }
 
 .links1 {
-    text-align: center;
-    align-items: center;
-    background: #FA91D4;
-    width: auto;
-    margin-left: -.5rem;
-    margin-right: -.5rem;
-    margin-bottom: -.75rem;
-    margin-top: -.75rem;
+  text-align: center;
+  align-items: center;
+  background: #FA91D4;
+  width: auto;
+  margin-left: -.5rem;
+  margin-right: -.5rem;
+  margin-bottom: -.75rem;
+  margin-top: -.75rem;
 
 }
 
 .link1css {
-    font-size: 2rem;
-    font-family: 'Neucha', cursive;
-    color: #FFFEFE;
-    display: inline-block;
-    margin-right: .7rem;
-    margin-bottom: .5rem;
-    margin-top: .5rem;
-    margin-left: .7rem;
+  font-size: 2rem;
+  font-family: 'Neucha', cursive;
+  color: #FFFEFE;
+  display: inline-block;
+  margin-right: .7rem;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
+  margin-left: .7rem;
 }
 
 
 .link1css:hover {
-    color: #B65C95;
+  color: #B65C95;
 }
 
 .discordbutton {
-    position: absolute;
-    width: 20%;
-    left: 77%;
-    top: 20%;
-    float: left;
-    text-align: center;
+  position: absolute;
+  width: 20%;
+  left: 77%;
+  top: 20%;
+  float: left;
+  text-align: center;
 
 }
 
 .abeldiscord {
-width: 100%;
-border-radius: 50%;
+  width: 100%;
+  border-radius: 50%;
 
 }
 
@@ -236,7 +236,7 @@ border-radius: 50%;
   }
 
   .textoabout, .textoaboutleft, .textoaboutright{
-        font-size: .75rem;
+    font-size: .75rem;
   }
 
   .boxmain {
