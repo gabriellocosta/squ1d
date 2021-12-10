@@ -16,22 +16,22 @@
   align-items: center;
   display: flex;
   align-self: center;
-  margin-left: 1rem;
   margin-right: 1rem;
   width: 99%;
 }
 
 .boxmain{
   background: linear-gradient(#FFEBBE,#FCC0CD);
-  position: inherit;
+  position: absolute;
+  top: 15%;
+  left: 25%;
   border-radius: 1rem;
   padding-top: .75rem;
   padding-left: .5rem;
   padding-right: .5rem;
   padding-bottom: .75rem;
   border: 5px solid #FFFEFE;
-  margin-top: 2rem;
-  width: inherit;
+  width: 50%;
 }
 
 .whitebox {
@@ -39,9 +39,23 @@ background-color: #FFFEFE;
 position: static;
 float: left;
 width: 13em;
-margin-top: 1em;
+top: 20%;
+margin-top: 3em;
 margin-bottom: 1em;
 width: 75%;
+
+}
+
+
+.whitebox2 {
+background-color: #FFFEFE;
+position: static;
+text-align: center;
+width: 13em;
+margin-bottom: 2em;
+width: 100%;
+padding-top: .3rem;
+padding-bottom: .3rem;
 
 }
 
@@ -62,7 +76,7 @@ width: 75%;
     font-weight: 900;
     text-transform: lowercase;
     margin: 1rem;
-    margin-bottom: -1rem;
+    margin-bottom: .2rem;
 }
 
 
@@ -108,16 +122,17 @@ width: 75%;
 }
 
 .discordbutton {
-    margin-top: 1em;
+    position: absolute;
+    width: 20%;
+    left: 77%;
+    top: 13%;
     float: left;
-    text-align: right;
-    width: 25%;
+    text-align: center;
 
 }
 
 .abeldiscord {
-text-align: center;
-width: 30%;
+width: 100%;
 border-radius: 50%;
 
 }
@@ -125,9 +140,8 @@ border-radius: 50%;
 .discordtext {
   font-family: 'Rubik', sans-serif;
   color: #76C2AF;
-  text-align: right;
   width: 100%;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 900;
   text-transform: lowercase;
   text-shadow: -5px 0 #FFFEFE, 0 5px #FFFEFE, 5px 0 #FFFEFE, 0 -5px #FFFEFE;
@@ -143,6 +157,7 @@ border-radius: 50%;
 
   .whitebox {
     width: 75%;
+    margin-top: 1em;
     }
 
   .abeldiscord {
@@ -153,6 +168,10 @@ border-radius: 50%;
       font-size: 2rem;
   }
 
+  .discordbutton {
+    top: 15%;
+  }
+
   .discordtext {
     font-size: 1rem;
   }
@@ -161,4 +180,9 @@ border-radius: 50%;
         font-size: .75rem;
   }
 
+  .boxmain {
+    top: 15%;
+    left: 5%;
+    width: 90%;
+  }
 }
