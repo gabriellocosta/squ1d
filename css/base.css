@@ -3,3 +3,23 @@ body {
   background-color: #FFEBBE;
   align-items: center;
 }
+
+b, strong {
+  font-weight: bold;
+  color: #B086F3;
+  font-size: 1.5rem;
+}
+
+i {
+  color: #76C2AF;
+}
+
+.donate {
+  color: #76C2AF;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.donate:hover {
+  color: #E1A35A;
+}

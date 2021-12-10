@@ -34,6 +34,21 @@
   width: 50%;
 }
 
+.boxmain2{
+  background: linear-gradient(#FCC0CD,#C5ADEB);
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  border-radius: 1rem;
+  padding-top: .75rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  padding-bottom: .75rem;
+  border: 5px solid #FFFEFE;
+  width: 50%;
+}
+
+
 .whitebox {
 background-color: #FFFEFE;
 position: static;
@@ -49,13 +64,15 @@ width: 75%;
 
 .whitebox2 {
 background-color: #FFFEFE;
+border-radius: 5%;
 position: static;
 text-align: center;
 width: 13em;
-margin-bottom: 2em;
+margin-top: 1rem;
+margin-bottom: 1em;
 width: 100%;
 padding-top: .3rem;
-padding-bottom: .3rem;
+padding-bottom: 1rem;
 
 }
 
@@ -81,6 +98,34 @@ padding-bottom: .3rem;
 
 
 .textoabout {
+    font-size: 1rem;
+    color: #726C71;
+    line-height: normal;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    margin: 0 auto 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+}
+
+.textoaboutright {
+    text-align: right;
+    font-size: 1rem;
+    color: #726C71;
+    line-height: normal;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    margin: 0 auto 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+}
+
+.textoaboutleft {
+    text-align: left;
     font-size: 1rem;
     color: #726C71;
     line-height: normal;
@@ -125,7 +170,7 @@ padding-bottom: .3rem;
     position: absolute;
     width: 20%;
     left: 77%;
-    top: 13%;
+    top: 20%;
     float: left;
     text-align: center;
 
@@ -153,6 +198,20 @@ border-radius: 50%;
   color: #E1A35A;
 }
 
+.imageabout {
+  text-align: center;
+}
+
+.squid {
+  width: 20%;
+}
+
+.perks {
+  color: #FA91D4;
+  text-align: right;
+  margin-right: 1em;
+}
+
 @media screen and (max-width: 480px) {
 
   .whitebox {
@@ -169,19 +228,25 @@ border-radius: 50%;
   }
 
   .discordbutton {
-    top: 15%;
+    top: 30%;
   }
 
   .discordtext {
     font-size: 1rem;
   }
 
-  .textoabout {
+  .textoabout, .textoaboutleft, .textoaboutright{
         font-size: .75rem;
   }
 
   .boxmain {
     top: 15%;
+    left: 5%;
+    width: 90%;
+  }
+
+  .boxmain2 {
+    top: 70%;
     left: 5%;
     width: 90%;
   }
